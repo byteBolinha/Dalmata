@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nova Round", sans-serif;
+    color: #feefdd;
+    box-sizing: border-box;
+}
+body{
+    background-color: #feefdd;
+    padding-top: 100px;
+}
+
+/* CABEÇALHO */
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+    z-index: 10;
+    top: 0; 
+    left: 0;
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #feefdd;
+}
+
+.logo-link img {
+    height: 80px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header input{
+    background-color: #000;
+    border: 1.5px #feefdd solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+}
+header a{
+    text-decoration: none;
+}
+.icon img{
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* PÉ DO SITE (footer) */
+footer {
+    padding: 20px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-info{
+    background-color: #000
+}
+footer .social-media {
+    margin-top: 10px;
+    background-color: #000;
+}
+
+footer .social-media a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer .social-media a:hover {
+    color: #fc3e3a;
+}
