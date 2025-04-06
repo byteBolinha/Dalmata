@@ -55,6 +55,26 @@ header a{
     margin-right: 8px;
     vertical-align: middle;
 }
+.cart{ border: 1.5px #feefdd solid;
+    text-align: center;
+    background-color:#feefdd ;
+        border: #000 solid;
+
+    border-radius: 20px;}
+
+    .profile{border: 1.5px #feefdd solid;
+    text-align: center;
+    background-color:#feefdd ;
+    border: #000 solid;
+
+    border-radius: 20px;}
+
+    .favorite{border: 1.5px #feefdd solid;
+    text-align: center;
+    background-color:#feefdd ;
+    border: #000 solid;
+    border-radius: 20px;}
+.espaco_incones{color: #000;}
 
 /* PÉ DO SITE (footer) */
 footer {
