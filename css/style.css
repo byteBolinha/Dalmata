@@ -89,6 +89,7 @@ footer {
     padding: 20px;
     width: 100%;
     background-color: #000;
+    color: #feefdd;
     text-align: center;
     font-size: 14px;
 }
@@ -102,6 +103,7 @@ footer .social-media {
 
 footer .social-media a {
     margin: 0 20px;
+    color: #feefdd;
     text-decoration: underline;
     font-size: 14px;
 }
