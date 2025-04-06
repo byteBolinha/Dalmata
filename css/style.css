@@ -38,6 +38,13 @@ header {
     margin-right: 10px;
     cursor: pointer;
 }
+header nav a{
+    padding: 10px 20px 27px 20px;
+}
+header nav a:hover{
+    color: #fc3e3a;
+    border-bottom:2px solid #feefdd ;
+}
 .search{
     display: flex;
     align-items: center;
