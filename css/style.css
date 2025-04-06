@@ -29,52 +29,47 @@ header {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
     color: #feefdd;
 }
-
 .logo-link img {
-    height: 80px;
+    height: 60px;
     border-radius: 50px;
     margin-right: 10px;
     cursor: pointer;
 }
-header input{
-    background-color: #000;
-    border: 1.5px #feefdd solid;
-    text-align: center;
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #111; /* ou qualquer cor de fundo */
+    padding: 8px 12px;
     border-radius: 20px;
-    width: 500px;
-    height: 50px;
+    margin-right: 16px;
+    width: 200px;
 }
+.search input {
+    border: none;
+    background: transparent;
+    color: #feefdd;
+    outline: #fc3e3a;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+}  
 header a{
     text-decoration: none;
 }
-.icon img{
+.icon{
     height: 24px;
     margin-right: 8px;
     vertical-align: middle;
 }
-.cart{ border: 1.5px #feefdd solid;
-    text-align: center;
-    background-color:#feefdd ;
-        border: #000 solid;
-
-    border-radius: 20px;}
-
-    .profile{border: 1.5px #feefdd solid;
-    text-align: center;
-    background-color:#feefdd ;
-    border: #000 solid;
-
-    border-radius: 20px;}
-
-    .favorite{border: 1.5px #feefdd solid;
-    text-align: center;
-    background-color:#feefdd ;
-    border: #000 solid;
-    border-radius: 20px;}
-.espaco_incones{color: #000;}
+.icon:hover {
+    fill: red;
+}
 
 /* PÉ DO SITE (footer) */
 footer {
@@ -94,8 +89,8 @@ footer .social-media {
 
 footer .social-media a {
     margin: 0 20px;
-    text-decoration: none;
-    font-size: 16px;
+    text-decoration: underline;
+    font-size: 14px;
 }
 
 footer .social-media a:hover {
