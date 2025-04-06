@@ -4,12 +4,11 @@
     margin: 0;
     padding: 0;
     font-family: "Nova Round", sans-serif;
-    color: #feefdd;
     box-sizing: border-box;
 }
 body{
     background-color: #feefdd;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 /* CABEÇALHO */
@@ -17,6 +16,7 @@ header {
     display: flex;
     position: fixed;
     width: 100%;
+    color: #feefdd;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
@@ -40,6 +40,7 @@ header {
 }
 header nav a{
     padding: 10px 20px 27px 20px;
+    color: #feefdd;
 }
 header nav a:hover{
     color: #fc3e3a;
@@ -77,6 +78,11 @@ header a{
 .icon:hover {
     fill: red;
 }
+/* PRINCIPAL */
+main{
+    color: #000 !important;
+}
+
 
 /* PÉ DO SITE (footer) */
 footer {
