@@ -49,10 +49,10 @@ header nav a:hover{
 .search {
     display: flex;
     align-items: center;
-    background-color: #111;
+    background-color: #1d1d1d;
     padding: 8px 12px;
     border-radius: 20px;
-    margin-right: 16px;
+    margin-right: 26px;
     width: 200px;
 }
 .search input {
@@ -100,7 +100,7 @@ footer .social-media a {
     margin: 0 20px;
     color: #feefdd;
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer .social-media a:hover {
