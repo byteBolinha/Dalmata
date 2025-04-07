@@ -3,7 +3,9 @@ width: 150px;
 height:25% ;
 
 }
-
+p .icon{
+    fill:rgb(234, 234, 28);
+}
 .container_largo {
     width: 150px;
     height:1000px ;
