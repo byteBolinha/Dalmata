@@ -46,10 +46,10 @@ header nav a:hover{
     color: #fc3e3a;
     border-bottom:2px solid #feefdd ;
 }
-.search{
+.search {
     display: flex;
     align-items: center;
-    background-color: #111; 
+    background-color: #111;
     padding: 8px 12px;
     border-radius: 20px;
     margin-right: 16px;
@@ -59,7 +59,8 @@ header nav a:hover{
     border: none;
     background: transparent;
     color: #feefdd;
-    outline: #fc3e3a;
+    outline: none;
+    width: 100%; /* Ocupa o espaço restante */
 }
 .header-right {
     display: flex;
