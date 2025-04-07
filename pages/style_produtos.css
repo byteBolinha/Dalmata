@@ -1,0 +1,47 @@
+.container_largo img{
+width: 150px;
+height:25% ;
+
+}
+
+.container_largo {
+    width: 150px;
+    height:1000px ;
+    
+
+}
+.imagem_principal img{
+    width: 100%;
+    height:100% ;
+    object-fit: cover;
+
+}
+.imagem_principal {
+    width: 670px;
+    height:1012px ;
+    object-fit: cover;
+
+    
+
+}
+.container_largo,.imagem_principal,.texto{
+    display: inline-block;
+    margin-right:20px;
+}
+.container {
+    display: flex;
+    
+}
+.texto{
+    width:500px ;
+}
+table,th,td:hover {border: 1px ;color: white;background-color: #fc3e3a;
+}
+h1
+         {
+            color: #fc3e3a;
+         }
+a{color: #000;}
+.cor_font{
+    color: #fc3e3a;
+}
