@@ -49,11 +49,14 @@ header nav a:hover{
 .search {
     display: flex;
     align-items: center;
-    background-color: #1d1d1d;
+    background-color: #0e0d0d;
     padding: 8px 12px;
     border-radius: 20px;
     margin-right: 26px;
     width: 200px;
+}
+.search:hover{
+    background-color: #3f3e3e;
 }
 .search input {
     border: none;
