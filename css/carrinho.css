@@ -1,0 +1,28 @@
+main{
+    display: flex;
+}
+
+.secao_carrinho{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    align-items: center;
+}
+.sec{
+    padding-right: 200px;
+}
+th{
+    padding: 20px;
+}
+td{
+    align-items: center;
+}
+.img-pro{
+    align-self: center;
+    width: 50px;
+    object-fit: scale-down;
+    position: relative;
+}
