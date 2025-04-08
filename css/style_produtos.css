@@ -45,13 +45,23 @@ td:hover{
     border: 1px ;
     color: white;
     background-color: #fc3e3a;
+    border-radius: 15%;
+    
 }
+
 h1
          {
             color: #fc3e3a;
          }
 a{
-    color: #000;}
+    color: #000;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+    color: #fc3e3a;
+}
 .cor_font{
     color: #fc3e3a;
 }
