@@ -44,24 +44,126 @@
     </div>
 </header>
     
-    <main class="secao_carrinho">
-      <div>
-        <table>
-            <tr>
-                <th class="sec">Produto</th>
-                <th>Quantidade</th>
-                <th>Valor Unitarui</th>
-                <th>Va=T</th>
-            </tr>
-            <tr>
-                <td>
-                    <img class="img-pro" src="..//imagens/dalmatian-logo.png/" alt="">
-                </td>
-            </tr>
-        </table>
-      </div>  
-
-    </main>
+<main class="secao_carrinho">
+    <div class="container-tabela">
+      <table class="tabela-carrinho">
+        <thead>
+          <tr>
+            <th class="col-produto">Produto</th>
+            <th class="col-quantidade">Quantidade</th>
+            <th class="col-valor">Valor Unitário</th>
+            <th class="col-total">Valor Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="item-carrinho">
+            <td class="celula-produto">
+              <img class="img-produto" src="../imagens/imagens_produto/imagem_kimono1_page6.webp" alt="Tênis Dalmatian">
+              <div class="detalhes-produto">
+                <h3>Kimono Dalmatian</h3>
+                <p>Cor: Branco</p>
+                <p>Tamanho: P</p>
+                <p>Estilo: Dz-2523</p>
+              </div>
+            </td>
+            <td class="celula-quantidade">
+              <div class="contador-quantidade">
+                <button class="btn-quantidade">-</button>
+                <span>1</span>
+                <button class="btn-quantidade">+</button>
+              </div>
+            </td>
+            <td class="celula-valor">R$ 199,99</td>
+            <td class="celula-total">R$ 199,99</td>
+          </tr>
+          <tr class="item-carrinho">
+            <td class="celula-produto">
+              <img class="img-produto" src="../imagens/imagens_produto/imagem_calcas1_page1.webp" alt="Tênis Dalmatian">
+              <div class="detalhes-produto">
+                <h3>Calça Dalmatian</h3>
+                <p>Cor: Preto</p>
+                <p>Tamanho: M</p>
+                <p>Estilo: DL-2023</p>
+              </div>
+            </td>
+            <td class="celula-quantidade">
+              <div class="contador-quantidade">
+                <button class="btn-quantidade">-</button>
+                <span>1</span>
+                <button class="btn-quantidade">+</button>
+              </div>
+            </td>
+            <td class="celula-valor">R$ 109,99</td>
+            <td class="celula-total">R$ 109,99</td>
+          </tr>
+          <tr class="item-carrinho">
+            <td class="celula-produto">
+              <img class="img-produto" src="../imagens/imagens_produto/imagem3_page3.webp" alt="Tênis Dalmatian">
+              <div class="detalhes-produto">
+                <h3>Camisa Dalmatian</h3>
+                <p>Cor: Preto</p>
+                <p>Tamanho: M</p>
+                <p>Estilo: D7-2022</p>
+              </div>
+            </td>
+            <td class="celula-quantidade">
+              <div class="contador-quantidade">
+                <button class="btn-quantidade">-</button>
+                <span>1</span>
+                <button class="btn-quantidade">+</button>
+              </div>
+            </td>
+            <td class="celula-valor">R$ 129,99</td>
+            <td class="celula-total">R$ 129,99</td>
+          </tr>
+        </tbody>
+        
+      </table>
+    </div>
+    <!-- Adicione isso DEPOIS da div que contém sua tabela de produtos -->
+<div class="resumo-pedido">
+    <div class="cep-container">
+      <h3>Prazo de entrega</h3>
+      <div class="input-cep">
+        <input type="text" placeholder="00000-000" pattern="\d{5}-\d{3}">
+        <button class="btn-calcular">Calcular</button>
+      </div>
+      <p class="texto-pequeno">Confira a nossa Política de Frete e Entregas.</p>
+      <a href="#" class="link-cep">Não sei o CEP</a>
+    </div>
+  
+    <div class="cupom-container">
+      <h3>Cupom de desconto</h3>
+      <div class="input-cupom">
+        <input type="text" placeholder="Digite seu cupom">
+        <button class="btn-aplicar">Aplicar</button>
+      </div>
+    </div>
+  
+    <div class="valores-container">
+      <h3>Resumo</h3>
+      <div class="linha-valor">
+        <span>Valor dos produtos</span>
+        <span>R$ 439,97</span>
+      </div>
+      <div class="linha-valor">
+        <span>Frete</span>
+        <span>A calcular</span>
+      </div>
+      <div class="linha-valor desconto">
+        <span>Descontos</span>
+        <span>- R$ 78,00</span>
+      </div>
+      <div class="linha-valor total">
+        <span>Total da compra</span>
+        <span>R$ 361,97</span>
+      </div>
+  
+      <button class="btn-continuar">Continuar</button>
+      <p class="garantia">Devolução grátis garantida. Devolva gratis no site ou na loja mais próxima.</p>
+    </div>
+  </div>
+  </main>
 
     <footer>
         <div class="footer-info">
