@@ -10,7 +10,9 @@ body{
     background-color: #feefdd;
     padding-top: 80px;
 }
-
+main{
+    flex: 1;
+}
 /* CABEÇALHO */
 header {
     display: flex;
@@ -63,7 +65,7 @@ header nav a:hover{
     background: transparent;
     color: #feefdd;
     outline: none;
-    width: 100%; /* Ocupa o espaço restante */
+    width: 100%; /* Ocupa o espaço restante dentro do DIV >:]*/
 }
 .header-right {
     display: flex;
@@ -83,6 +85,13 @@ header a{
     fill: red;
 }
 /* PÉ DO SITE (footer) */
+/* criado para que sites "curtos" possam empurrar o footer para o chão, bottom */
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    min-height: 92vh;
+}
 footer {
     padding: 20px;
     width: 100%;

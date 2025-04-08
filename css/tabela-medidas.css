@@ -1,0 +1,52 @@
+/* Área principal centralizada com espaçamento */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+} 
+  /* Estilização geral da tabela */
+  main table {
+    border-spacing: 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 3px 1px rgba(0, 0, 0, 0.493);
+}  
+  /* Cabeçalhos da tabela */
+  main th {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    padding: 8px 16px;
+}  
+main td {
+    padding: 0 33px 20px 33px;
+}
+main td img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px; /* deixa a imagem mais agradável */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.548);
+  }
+main tr:nth-child(odd) {
+    background-color: #ececec;
+}
+main tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+main tr:hover {
+    background-color: #fcc0c0;
+}
+.nota-direita{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 8px;
+    border-top: 2px solid #ccc;
+    color: #444;
+}
