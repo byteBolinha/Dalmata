@@ -1,0 +1,155 @@
+.perfilIcon{
+    max-width: 30%;
+    padding: 9%;
+    max-height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+}
+.categoriasPerfil a{
+    text-decoration: none;
+    color: #000000;
+}
+.categoriasPerfil a:hover {
+    color: #fc3e3a;
+}
+.categoriasPerfil {
+    padding-bottom: 10%;
+    max-width: 30%;
+    height: 40%;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+}
+.categoriasPerfil p{
+    margin: 25px 25px;
+    font-size: larger;
+    
+}
+.section1 P{
+    text-align: center;
+    margin: auto;
+}
+aside {
+    padding-left: 4%;
+    min-height: 0px;
+    margin-right: 60px;
+    width: 300px;
+    padding: 30px 0 0 4%;
+    height: fit-content;
+    margin-bottom: 20px;
+    flex: 0 0 300px;
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
+}
+.section-container {
+    margin-left: 00%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px; 
+}
+.section1 button{
+    background-color: black;
+    border-radius: 5px;
+    padding: 3%;
+    color: #feefdd;
+}
+.section1 button:hover{
+    background-color: #fc3e3a;
+    border: none;
+    
+}
+.section1 select{
+    background-color: #feefdd;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+
+.section1 {
+    box-shadow: 0 6px 12px #433f3f56;
+    width: 90%;
+    padding: 10%;
+    border: none;
+    margin: 0px 30% 20px 0;
+    border-radius: 9px;
+    max-width: 600px;
+    background-color: transparent;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+}
+
+.section1 h1 {
+    grid-column: span 2; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+.section1 input {
+    background-color: #feefdd;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+.section1 input:focus {
+    outline: none;
+    border-color: none; 
+    box-shadow: 0 0 3px #fc3e3a;
+}
+.section1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section1 label, 
+.section1 span {
+    font-weight: bold;
+    color: #333;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 20px 0;
+}
+footer {
+    clear: both;
+}
+#cartoes {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+#cartoes p {    
+    text-align: center;
+}
+#cartoes div {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.section1 small{
+    font-size: x-small;
+}
+#enderecos a{
+    text-decoration: none;
+    color: gray;
+}
+#enderecos a:hover{
+    color: #fc3e3a;
+    
+}
