@@ -1,0 +1,141 @@
+
+.menu a {
+    text-decoration: none;
+    padding: 5px 10px;
+
+    color: white;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background-color: #0056b3;
+}
+#conteudo-principal {
+    padding: 20px;
+    background-color: #feefdd;
+    margin-top: 100px;
+}
+#favoritos-page {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#favoritos-page h1 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    text-align: left;
+    /* Alinhando o título à esquerda como na Puma */
+}
+.lista-favoritos {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Um item por linha em telas menores */
+    gap: 20px;
+    padding: 20px 0;
+}
+@media (min-width: 768px) {
+    .lista-favoritos {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        /* Layout com vários itens em telas maiores */
+    }
+}
+.item-favorito {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.imagem-produto {
+    margin-right: 15px;
+    position: relative;
+    /* Para posicionar o indicador de estoque */
+}
+.imagem-produto img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 4px;
+}
+.em-estoque {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    background-color: #4CAF50;
+    /* Cor verde para estoque */
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.detalhes-produto {
+    flex-grow: 1;
+}
+.detalhes-produto h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #555;
+}
+.detalhes-produto .info {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+.detalhes-produto .preco {
+    font-size: 16px;
+    color: #fc3e3a;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.detalhes-produto button.adicionar-carrinho {
+    background-color: #000;
+    /* Cor preta para o botão */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+.detalhes-produto button.adicionar-carrinho:hover {
+    background-color: #333;
+}
+.acoes-produto {
+    margin-left: 20px;
+}
+.acoes-produto button.remover-favorito {
+    background-color: #f44336;
+    /* Cor vermelha para remover */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+.acoes-produto button.remover-favorito:hover {
+    background-color: #d32f2f;
+}
+.lista-vazia {
+    padding: 20px;
+    text-align: center;
+    color: #777;
+    display: none;
+    /* Inicialmente escondido */
+}
+.lista-vazia a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.lista-vazia a:hover {
+    text-decoration: underline;
+}
+.detalhes-produto a{
+    text-decoration: none;
+}
