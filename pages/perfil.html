@@ -47,7 +47,7 @@
     </header>
     <main><aside>
         <div class="perfilIcon">
-            <img src="/imagens/user_black_icon.svg" alt="icone de perfil" width="80" height="80"> 
+            <img src="../imagens/user_black_icon.svg" alt="icone de perfil" width="80" height="80"> 
             <span>Olá!</span>
         </div>
         <div class="categoriasPerfil">
@@ -55,7 +55,7 @@
             <P><a href="#cartoes">CARTÕES</a></P>
             <P><a href="#enderecos">ENDEREÇOS</a></P>
             <P><a href="#pedidos">PEDIDOS</a></P>
-            <P><a href="index.html">SAIR</a></P>
+            <P><a href="../index.html">SAIR</a></P>
         </div>
     </aside>
     <div class="section-container">
@@ -164,54 +164,32 @@
         </div>
     </section>
 
-    <section class="section1" id="pedidos">
+    <section class="section2" id="pedidos">
         <h1>PEDIDOS</h1>
-        
-        <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome">
-        </div>
-        
-        <div>
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" id="sobrenome">
-        </div>
-        
-        <div>
-            <label for="email">Email</label>
-            <input type="email" id="email">
-        </div>
-        
-        <div>
-            <label for="nascimento">Data de Nascimento</label>
-            <input type="date" id="nascimento">
-        </div>
-        
-        <div>
-            <label for="cpf">CPF</label>
-            <input type="text" id="cpf">
-        </div>
-        
-        <div>
-            <label for="genero">Gênero</label>
-            <select id="genero">
-                <option value="">Selecione...</option>
-                <option value="feminino">Feminino</option>
-                <option value="masculino">Masculino</option>
-                <option value="outro">Outro</option>
-            </select>
-        </div>
-        
-        <div>
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone">
-        </div>
-
-        <div>
-           <br> <button> Editar </button>
+        <div class="pedido-container">
+            <div class="pedido-item">
+                <div>
+                    <a href="../pages/pages_prdutos _calcas1.html"><img class="pedido-imagem" src="../imagens/imagens_produto/imagem_calcas1_page1.webp" alt="Calça pijama"></a></div>
+                    <div class="pedido-info">
+                        <p><strong>calça pijama fofo - Unissex</strong></p>
+                        <p>Cor: <span>Preto</span></p>
+                        <p>Tamanho: <span>G</span></p>
+                        <p>Quantidade: <span>1</span></p>
+                        <p>Valor: <span>R$ 89,99</span></p>
+                    </div>
+            </div>
+            <div class="pedido-item">
+                <a href="../pages/pages_prdutos_kimonos3.html"><img class="pedido-imagem" src="../imagens/imagens_produto/imagem_kimono3_page3.webp" alt="Kimono gato"></a>
+                <div class="pedido-info">
+                    <p><strong>kimono gato morango - Unissex</strong></p>
+                    <p>Cor: <span>Branco+vermelho</span></p>
+                    <p>Tamanho: <span>M</span></p>
+                    <p>Quantidade: <span>2</span></p>
+                    <p>Valor: <span>R$ 199,98</span></p>
+                </div>
+            </div>
         </div>
     </section>
-    </div>
     </main>
     <!-- Pé do Site-->
     <footer>

@@ -151,5 +151,58 @@ footer {
 }
 #enderecos a:hover{
     color: #fc3e3a;
-    
+}
+.section2 {
+    box-shadow: 0 6px 12px #433f3f56;
+    width: 90%;
+    padding: 10%;
+    border: none;
+    margin: 0px 30% 20px 0;
+    border-radius: 9px;
+    max-width: 600px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section2 h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.pedido-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pedido-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    border: none;
+    background: #feefdd27;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.pedido-imagem {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.pedido-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pedido-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
 }
