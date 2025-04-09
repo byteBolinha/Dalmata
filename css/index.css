@@ -20,7 +20,9 @@
   gap: 30px;
   margin-top: 20px;
 }
-
+.banner{
+  width: 100%;
+}
 .produto {
   width: 220px;
   background-color: white;
