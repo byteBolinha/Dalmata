@@ -65,7 +65,7 @@ aside {
     
 }
 .section1 select{
-    background-color: #feefdd;
+    background-color: transparent;
     border: 1px solid #dddddd;
     border-radius: 4px;
     padding: 8px;
@@ -80,7 +80,7 @@ aside {
     margin: 0px 30% 20px 0;
     border-radius: 9px;
     max-width: 600px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.545);
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 15px; 
@@ -92,7 +92,7 @@ aside {
     text-align: center;
 }
 .section1 input {
-    background-color: #feefdd;
+    background-color: transparent;
     border: 1px solid #dddddd;
     border-radius: 4px;
     padding: 8px;
@@ -160,7 +160,7 @@ footer {
     margin: 0px 30% 20px 0;
     border-radius: 9px;
     max-width: 600px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.545);
     display: flex;
     flex-direction: column;
     gap: 20px;
