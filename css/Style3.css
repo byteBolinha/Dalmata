@@ -18,8 +18,8 @@ body{
     margin: 20px;
 }
 #mingallery .item img {
-    width: 390px;
-    height: 458px;
+    width: 350px;
+    height: 420px;
     border-radius: 10%;
     background: aliceblue;
     transition: transform 0.3s ease-in-out;
@@ -54,4 +54,10 @@ body{
 }
 .item span{
     color: #fc3e3a;
+}
+main{
+    padding-top: 25px;
+}
+h1 i{
+    font-size:xx-large;
 }
