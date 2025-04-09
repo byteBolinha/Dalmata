@@ -8,7 +8,7 @@
 }
 body{
     background-color: #feefdd;
-    padding-top: 80px;
+    padding-top: 73px;
 }
 main{
     flex: 1;
@@ -82,7 +82,7 @@ header a{
     fill: #feefdd;
 }
 .icon:hover {
-    fill: red;
+    fill: #fc3e3a;
 }
 /* PÉ DO SITE (footer) */
 /* criado para que sites "curtos" possam empurrar o footer para o chão, bottom */

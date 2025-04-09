@@ -1,3 +1,45 @@
-main{
-  color: black;  /*só para dizer que tem algo */
+.secoes a {
+  color: inherit;
+  text-decoration: none;
+}
+.secoes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+/* motivo é que o h1 (titulo fica do lado, essa bomba) #exploda_frontEnd */
+.grade-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.produto {
+  width: 220px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.274);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+.produto:hover {
+  transform: scale(1.20);
+}
+.produto img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.produto p {
+  margin: 10px;
+  font-size: 15px;
+  color: #333;
 }
