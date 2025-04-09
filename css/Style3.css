@@ -33,8 +33,9 @@ body{
     text-align: center;
 }
 #mingallery .item button {
-    background: #000000;
+    background: black;
     color: #feefdd;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
     margin-top: 8px;
     padding: 8px;
@@ -46,4 +47,11 @@ body{
     color: white;
     transform: scale(1.1);
     border-radius: 10px;
+}
+.item a {
+    text-decoration: none;
+    color: #feefdd;
+}
+.item span{
+    color: #fc3e3a;
 }
